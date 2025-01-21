@@ -67,31 +67,33 @@
 
 | Item |                                            Discussion                                             | Date | Author |
 | :--: | :-----------------------------------------------------------------------------------------------: | :--- | :----- |
-|  45  |         [CPU는 어떻게 입출력 작업을 처리할까?](./ch06_타입_선언과_@types/item45_호찬.md)          | N/A  | TBD    |
-|  46  | [디스크가 입출력을 처리할 때 CPU가 하는 일은 무엇일까?](./ch06_타입_선언과_@types/item46_dami.md) | N/A  | TBD    |
-|  47  |           [파일을 읽을 때 프로그램에는 어떤 일이 발생할까?](./ch06_타입_선언과_@types/)           | N/A  | TBD    |
-|  48  |          [높은 동시성의 비결: 입출력 다중화](./ch06_타입_선언과_@types/item48_chanu.md)           | N/A  | TBD    |
-|  49  |    [mmap: 메모리 읽기와 쓰기 방식으로 파일 처리하기](./ch06_타입_선언과_@types/item49_혁주.md)    | N/A  | TBD    |
-|  50  |  [컴퓨터 시스템 각 부분에서 얼마큼 지연이 일어날까?](./ch06_타입_선언과_@types/item50_jungho.md)  | N/A  | TBD    |
+|  01  |         [CPU는 어떻게 입출력 작업을 처리할까?](./ch06_타입_선언과_@types/item45_호찬.md)          | N/A  | TBD    |
+|  02  | [디스크가 입출력을 처리할 때 CPU가 하는 일은 무엇일까?](./ch06_타입_선언과_@types/item46_dami.md) | N/A  | TBD    |
+|  03  |           [파일을 읽을 때 프로그램에는 어떤 일이 발생할까?](./ch06_타입_선언과_@types/)           | N/A  | TBD    |
+|  04  |          [높은 동시성의 비결: 입출력 다중화](./ch06_타입_선언과_@types/item48_chanu.md)           | N/A  | TBD    |
+|  05  |    [mmap: 메모리 읽기와 쓰기 방식으로 파일 처리하기](./ch06_타입_선언과_@types/item49_혁주.md)    | N/A  | TBD    |
+|  06  |  [컴퓨터 시스템 각 부분에서 얼마큼 지연이 일어날까?](./ch06_타입_선언과_@types/item50_jungho.md)  | N/A  | TBD    |
 
 </div>
 
 ### ⚡️Members
 
-- [TBD](https://github.com)
+- [채민석](https://github.com/sht02048)
+- [이수진](https://github.com/zzinlee)
+- [추술기](https://github.com/doitchuu)
 
 ### 📝Study Rules
 
 - 마감 기한: 매주 일요일 오후 11시 59분
-- 매주 소쳅터 4개 진행
-- 각자 소쳅터 2개씩 마크다운으로 정리해서 PR
+- 매주 소쳅터 3~4개 진행
+- 각자 소쳅터 1~2개씩 마크다운으로 정리해서 PR
 - 본인이 올리지 않은 PR에 대해서 리뷰 - 개인적인 의견을 남길 수 있다.
 
 ### 📚 Github Rules
 
 - 각 아이템 별 directory에 해당 아이템 내용을 정리한다. (파일명: item01\_이름.md)
 - 매주 본인이 맡은 아이템 내용 정리 후 11st-corp Repository로 Pull Request를 생성한다.
-- branch는 main 하나만 사용한다.
+- 각자의 이름을 딴 브렌치를 사용하고 main으로 PR을 올린다. ex) minasug
 - Pull Request 제목은 `[이름] 챕터 소 쳅터 제목 정리` 로 한다. ex) [채민석] 2.1 운영 체제, 프로세스, 스레드의 근본 이해하기
 - 다른 사람의 PR이 올라오면 해당 챕터에 관련한 자신의 의견을 남길 수 있다.
 - PR 리뷰 후 approve와 good to merge 레이블을 표시한다.
