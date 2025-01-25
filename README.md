@@ -80,7 +80,7 @@
 
 - [채민석](https://github.com/sht02048)
 - [이수진](https://github.com/zzinlee)
-- [추술기](https://github.com/doitchuu)
+- [추슬기](https://github.com/doitchuu)
 
 ### 📝Study Rules
 
