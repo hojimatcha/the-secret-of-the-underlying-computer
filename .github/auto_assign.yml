@@ -1,0 +1,36 @@
+# Pull Request에 리뷰어를 자동으로 추가하는 기능을 활성화 (required)
+addReviewers: true
+
+# Pull Request의 작성자를 자동으로 담당자(assignee)로 지정
+addAssignees: author
+
+# 자동으로 추가될 리뷰어 목록을 정의(GitHub user name) (required)
+reviewers:
+  - sht02048
+  - zzinLee
+  - doitchuu
+
+# 리뷰어를 순차적으로 할당하여 작업량을 더욱 균등하게 분배
+useRotation: true
+
+# A number of reviewers added to the pull request (required)
+# 모든 리뷰어를 Pull Request에 추가하려면 0으로 설정 (default: 0)
+# 2로 할당되어있다면 2명의 리뷰어가 랜덤으로 할당됩니다.
+numberOfReviewers: 0
+
+# 현재 비활성화되어 있지만, 필요시 특정 담당자를 지정할 수 있습니다.
+# assignees:
+#   - assigneeA
+
+# 특정 키워드가 포함된 Pull Request에 대해 자동 리뷰어 추가를 건너뛸 수 있습니다.
+skipKeywords:
+  - draft
+  - wip
+
+# 리뷰어 및 담당자 자동 추가 프로세스에서 제외
+skipUsers:
+  - dependabot[bot]
+# 리뷰어가 할당될 때 자동으로 작성되는 코멘트
+# addReviewerComment: >
+#   Thank you for your contribution! I've automatically added some reviewers.
+#   They will review your PR shortly.
