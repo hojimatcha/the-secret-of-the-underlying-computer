@@ -91,8 +91,7 @@
 
 ### 📚 Github Rules
 
-- 각 아이템 별 directory에 해당 아이템 내용을 정리한다. (파일명: item01\_이름.md)
-- 매주 본인이 맡은 아이템 내용 정리 후 11st-corp Repository로 Pull Request를 생성한다.
+- 각 아이템 별 directory에 해당 아이템 내용을 정리한다. (파일명: item_1\_이름.md)
 - 각자의 이름을 딴 브렌치를 사용하고 main으로 PR을 올린다. ex) minasug
 - Pull Request 제목은 `[이름] 챕터 소 쳅터 제목 정리` 로 한다. ex) [채민석] 2.1 운영 체제, 프로세스, 스레드의 근본 이해하기
 - 다른 사람의 PR이 올라오면 해당 챕터에 관련한 자신의 의견을 남길 수 있다.
