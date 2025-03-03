@@ -149,65 +149,7 @@ function funcA() {
 
 ## 6) 비동기와 논블로킹
 
-익숙한 자바스크립트를 예시로 먼저 보자.
-
-### 자바스크립트 예시로 다시 봐보자!
-
-#### (1) 블로킹 HTTP 요청 (동기 방식)
-
-```js
-const axios = require("axios");
-
-console.log("요청 시작");
-
-async function fetchData() {
-  const response = await axios.get(
-    "https://jsonplaceholder.typicode.com/todos/1"
-  );
-  console.log("데이터:", response.data);
-}
-
-fetchData();
-
-console.log("요청 완료");
-```
-
-#### 실행 흐름
-
-1. "요청 시작" 출력
-2. await axios.get(...)에서 서버 응답을 받을 때까지 멈춤
-3. 서버 응답이 오면 "데이터: ..." 출력
-4. "요청 완료" 출력
-
-#### (2) 논블로킹 HTTP 요청 (비동기 방식)
-
-```js
-const axios = require("axios");
-
-console.log("요청 시작");
-
-axios
-  .get("https://jsonplaceholder.typicode.com/todos/1")
-  .then((response) => {
-    console.log("데이터:", response.data);
-  })
-  .catch((error) => {
-    console.error("오류 발생:", error);
-  });
-
-console.log("요청 완료 (서버 응답 기다리는 중)");
-```
-
-#### 실행 흐름 (논블로킹 방식)
-
-1. "요청 시작" 출력
-2. axios.get(...)을 호출하지만 서버 응답을 기다리지 않고 즉시 다음 코드 실행
-3. "요청 완료 (서버 응답 기다리는 중)" 출력
-4. 서버 응답이 오면 .then(...) 실행되어 "데이터: ..." 출력
-
-<br />
-
-### 추가적으로, 네트워크 데이터 수신을 예를 봐보자.
+### 네트워크 데이터 수신을 예를 봐보자.
 
 데이터를 수신하는 recv함수를 논블로킹 호출로 설정하기 위해 `NON_BLOCKING_FLAG` 설정값(flag)를 추가하면,<br /> 다음과 같은 네트워크 데이터를 수신할 수 있다.
 
